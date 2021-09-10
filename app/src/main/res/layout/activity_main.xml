@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="384dp"
+        android:layout_height="483dp"
+        android:scrollbars="vertical" />
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_side_bg" />
+
+    <ImageView
+        android:layout_width="199dp"
+        android:layout_height="156dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="211dp"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/alarm" />
+
+    <ImageView
+        android:id="@+id/addImage"
+        android:layout_width="57dp"
+        android:layout_height="142dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-6dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/ic_add_img" />
+
+</RelativeLayout>

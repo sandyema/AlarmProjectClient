@@ -32,4 +32,8 @@ public interface ServiceUser {
     @Headers("Content-Type: application/json")
     Call<MyResponse> addAlarm(@Body HashMap<String, String> alarm);
 
+    @POST("resetPass")
+    @Headers("Content-Type: application/json")
+    Call<MyResponse> resetPass(@Body HashMap<String, String> new_pass);
+
 }
